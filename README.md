@@ -5,6 +5,7 @@ This utility script renames all `.css` files to `.scss` in an Angular project an
 ## Features
 - Renames `.css` files to `.scss`.
 - Updates Angular component `styleUrls` to point to `.scss` files.
+- Updates `angular.json` `styles` section to point to `.scss` files in the `src` folder
 - Can be run from w/o copying script to the Angular project via command line args
 
 ## Requirements
